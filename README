@@ -1,0 +1,21 @@
+A simple python script to enable auto-reply on your Telegram. You can use it similar to out-of-office mails.
+
+I have used the Telethon module for this as it takes care of doing the heavy job on your part and interacts with the Telegram API.
+https://github.com/LonamiWebs/Telethon
+
+To install telethon on your system:
+    pip3 install telethon
+    
+You can also read the documentation for telethon here: https://docs.telethon.dev/en/latest/
+
+For obtaining the API_ID and API_HASH refer the below link:
+https://core.telegram.org/api/obtaining_api_id
+You only need to fill the Application name and Short name field. It is not necessary to fill the remaining.
+
+To run the script:
+python3 /path/to/this/script
+Provide the code received on your device and your auto-reply starts.
+
+This is just a basic script, tweak around and add your own features - such as replying only to specific people, custom replies for different people, etc.
+    
+
